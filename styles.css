@@ -1,0 +1,112 @@
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(240, 175, 255);
+  }
+  
+  header {
+    background-color: #f7ccff;
+    padding: 20px;
+    border-bottom: 5px;
+    border-color: #ffffff;
+    border-width: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  form{
+    margin-left: 30%;
+  }
+  form label {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  form input {
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 8px;
+    background-color: rgba(246, 127, 255, 0.638);
+    border: 0;
+    
+  }
+  
+  button {
+    background-color: #ff9dd5;
+    color: rgb(135, 33, 92);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20%;
+    margin-left: 20%;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  img{
+    width: 250px;
+    height: 250px;
+    margin-left: 2%;
+    border-radius: 20%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    img {
+        width: 300px;
+        height: 300px;
+        margin-left: 8%;
+        margin-top: 5%;
+        border-radius: 20%;    
+    }
+    form{
+        margin-left: 10%;
+      }
+      form label {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        display: block;
+        margin-bottom: 5px;
+      }
+      
+      form input {
+        margin-bottom: 10px;
+        width: 80%;
+        padding: 8px;
+        background-color: rgba(246, 127, 255, 0.638);
+        border: 0;
+        
+      }
+
+  }
